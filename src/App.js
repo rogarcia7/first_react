@@ -14,10 +14,10 @@ function App() {
             </ul>
       </div>
       <div id="imagemDog">
-        <img src={imageDog} alt="imagem de um cachorro"/>
+        <p><img src={imageDog} alt="imagem de um cachorro"/></p>
       </div>
       <div id="footer">
-        <p>&copy; Fiel a minha namorada BIA, jogador de fortnite e mandrake em tempos passados...</p>
+        <p>&copy;POKEQUIZ</p>
       </div>
     </div>
   );
