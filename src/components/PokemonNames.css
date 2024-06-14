@@ -1,0 +1,14 @@
+#gengarName{
+    color: purple;
+    font-family: 'Arial Narrow Bold';
+    text-align: left;
+    margin-left: 7rem;
+}
+
+#cinderaceName{
+    color: rgb(255, 85, 0);
+    font-family: 'Arial Narrow Bold';
+    text-align: left;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
