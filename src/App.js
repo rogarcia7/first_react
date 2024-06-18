@@ -1,10 +1,12 @@
 import './App.css';
 import Cinderace from './components/Cinderace';
 import PokemonNames from './components/PokemonNames';
+import PokemonInfos from './components/PokemonInfos';
 
 function App() {
   const title = "PokeQuiz In React"
-  const gengarImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgHeQfNQ-NI8xRp7NdHwlnAf90vry3B2a8w&s"
+  const  gengarImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgHeQfNQ-NI8xRp7NdHwlnAf90vry3B2a8w&s"
+  const name2 = "Cinderace"
 
   return (
     <div id="container">
@@ -16,12 +18,13 @@ function App() {
             </ul>
       </div>
       <div id="PokemonGengarAndCinderace">
-          <p><img src={gengarImg} alt="image of gengar"/></p>
-          <PokemonNames />
+          <p><img src={gengarImg} alt="gengar"/></p>
+          <PokemonInfos type="Ghost" type2="Dark" evolution="Latest form" generation="First" />
+          <PokemonNames name="Gengar" name2={name2}/>
           <Cinderace />
       </div>
       <div id="footer">
-        <p>&copy;POKEQUIZ <img src="https://cdn3.emoji.gg/emojis/4889-pokeball.png"></img></p>
+        <p>&copy;POKEQUIZ <img src="https://cdn3.emoji.gg/emojis/4889-pokeball.png" alt="pokeball"></img></p>
       </div>
     </div>
   );

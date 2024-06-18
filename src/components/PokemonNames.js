@@ -1,13 +1,13 @@
 import './PokemonNames.css'
 
-function PokemonNames () {
+function PokemonNames (props) {
     return(
         <div>
             <div id="gengarName">
-                <h2>Gengar</h2>
+                <h2>The Pokemon is: {props.name}</h2>
             </div>
             <div id="cinderaceName">
-                <h2>Cinderace</h2>
+                <h2>The Pokemon is: {props.name2}</h2>
             </div>
         </div>
     )
