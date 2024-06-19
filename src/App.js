@@ -19,7 +19,6 @@ function App() {
       </div>
       <div id="PokemonGengarAndCinderace">
           <p><img src={gengarImg} alt="gengar"/></p>
-          <PokemonInfos type="Ghost" type2="Dark" evolution="Latest form" generation="First" />
           <PokemonNames name="Gengar" name2={name2}/>
           <Cinderace />
       </div>
